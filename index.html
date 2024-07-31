@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abas HTML com CSS e JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Descubra Nova Iorque</h1>
+        <p>Explore a cidade de Nova Iorque com imagens impressionantes das suas atrações icônicas.</p>
+        <img id="main-image" src="imagens/tqnoite.jpg" alt="Nova Iorque">
+        <p id="caption">Times Square à noite: O brilho das luzes de neon
+             e as telas publicitárias gigantes transformam Times Square em um espetáculo vibrante
+              e pulsante de cores e energia noturna.</p>
+        <div class="button-container">
+            <button onclick="changeImage('imagens/tqnoite.jpg', 'Times Square à noite: O brilho das luzes de neon e as telas publicitárias gigantes transformam Times Square em um espetáculo vibrante e pulsante de cores e energia noturna.')">Times Square</button>
+            <button onclick="changeImage('imagens/estatua.jpg', 'Estátua da Liberdade: Imponente e majestosa, a Estátua da Liberdade ergue seu bastão como um símbolo de liberdade e esperança no porto de Nova York.')">Estatua da Liberdade</button>
+            <button onclick="changeImage('imagens/centralpark.jpg', 'Central Park no outono: O Central Park se transforma em um mar de tons dourados e avermelhados, com folhas caídas formando um tapete vibrante sob o céu de outono.')">Central Park</button>
+            <button onclick="changeImage('imagens/bb.jpg', 'Brooklyn Bridge: Com suas torres góticas e cabos elegantes, a Brooklyn Bridge se estende sobre o East River, conectando Brooklyn a Manhattan com uma vista deslumbrante da cidade.')">Brooklyn Bridge</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
